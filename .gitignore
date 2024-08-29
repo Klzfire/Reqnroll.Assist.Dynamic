@@ -30,3 +30,12 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+# Rider
+.idea/
+.DotSettings
+Visual Studio 2017/Visualizers/attribcache140.bin
+*.bak
+
+# Specflow/Reqnroll
+*.feature.cs

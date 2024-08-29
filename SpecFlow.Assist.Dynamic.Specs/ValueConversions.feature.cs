@@ -31,9 +31,9 @@ namespace SpecFlow.Assist.Dynamic.Specs
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Conversions of values", "\tIn order to easier compare values of the most common types\n\tAs a user of SpecFlo" +
-                    "w Dynamic\n\tI want SpecFlow Dynamic to translate strings into the closest ressemb" +
-                    "ling real type", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Conversions of values", "\tIn order to easier compare values of the most common types\r\n\tAs a user of SpecFl" +
+                    "ow Dynamic\r\n\tI want SpecFlow Dynamic to translate strings into the closest resse" +
+                    "mbling real type", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

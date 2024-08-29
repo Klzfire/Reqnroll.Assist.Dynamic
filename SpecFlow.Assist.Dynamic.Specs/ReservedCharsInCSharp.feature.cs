@@ -31,8 +31,8 @@ namespace SpecFlow.Assist.Dynamic.Specs
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ReservedCharsInCSharp", "\tIn order to be able to write more expressive meaningful scenarios\n\tAs a scenario" +
-                    " writer\n\tI want to be able to use any character, including reserved words", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ReservedCharsInCSharp", "\tIn order to be able to write more expressive meaningful scenarios\r\n\tAs a scenari" +
+                    "o writer\r\n\tI want to be able to use any character, including reserved words", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

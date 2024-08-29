@@ -31,8 +31,8 @@ namespace SpecFlow.Assist.Dynamic.Specs
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Column name converts by convention to nicely formatted property name", "\tAs a developer\n\tI want my dynamic code to follow common conventions\n\tSo that I k" +
-                    "now how to access them", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Column name converts by convention to nicely formatted property name", "\tAs a developer\r\n\tI want my dynamic code to follow common conventions\r\n\tSo that I" +
+                    " know how to access them", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

@@ -31,8 +31,8 @@ namespace SpecFlow.Assist.Dynamic.Specs
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Comparing dynamic sets against tables", "\tIn order to easier and slicker do assertions\n\tAs a SpecFlow developer\n\tI want to" +
-                    " be able to compare a list of dynamic items against a table", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Comparing dynamic sets against tables", "\tIn order to easier and slicker do assertions\r\n\tAs a SpecFlow developer\r\n\tI want " +
+                    "to be able to compare a list of dynamic items against a table", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

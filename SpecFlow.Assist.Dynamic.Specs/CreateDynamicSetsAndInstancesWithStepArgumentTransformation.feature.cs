@@ -31,8 +31,8 @@ namespace SpecFlow.Assist.Dynamic.Specs
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Create dynamic sets and instance with step argument transformations", "  In order to write super slick and easy code\n  As a SpecFlow step definition dev" +
-                    "eloper\n  I want to be able to define the types as argument to the step", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Create dynamic sets and instance with step argument transformations", "  In order to write super slick and easy code\r\n  As a SpecFlow step definition de" +
+                    "veloper\r\n  I want to be able to define the types as argument to the step", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
